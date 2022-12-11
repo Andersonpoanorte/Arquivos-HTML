@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<style>
+    menu {
+        font-family: sans-serif;
+        color: #0079c0;
+        font-size: 2rem;
+    }
+    h2 {
+        font-family: sans-serif;
+        color: #0079c0;
+        text-align: center;
+        font-size: 2rem;
+    }
+    form input {
+        width: 50%;
+        border: 1px solid #c4c4c4;
+        background: #fbfbfb;
+        padding: 20px;
+        position: relative;
+    }
+    form textarea {
+        width: 50%;
+        border: 1px solid #c4c4c4;
+        background: #fbfbfb;
+        padding: 20px;
+        position: relative;
+    }
+    form input, textarea, button {
+        font-family: inherit;
+        font-size: 100%;
+        line-height: 1.15;
+        margin: 0;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        
+    }
+    button {
+    border-radius: 20px;
+    padding: 5px 25px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+    }
+    p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    
+</style>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="Página_Principal.html">Página Principal</a></li><br>
+                <li><a href="Sobre_a_Clinica.html">Sobre a Clínica</a></li><br>
+                <li><a href="Horário_de_Atendimento.html">Horário de Atendimento</a></li><br>
+                <li><a href="Contato.html">Contato</a></li><br>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="header">
+                <img src="https://t4.ftcdn.net/jpg/03/02/68/11/360_F_302681154_9HOWdvGLtCKpfwO5B85yESszG7MfmlUl.jpg" width="1000" height="450" alt="">
+            </div>   
+            <div class="content">
+                <h2><u><strong>Fale Conosco</strong></u></h2>
+                <form method="get" align="center">
+                    <input id="Nome" type="text" name="nome" placeholder="Nome"><br><br>
+                    <input type="email" name="email" id="E-mail" placeholder="E-mail"><br><br>
+                    <input type="text" name="assunto" id="Assunto" placeholder="Assunto"><br><br>
+                    <textarea id="Mensagem" name="Mensagem" placeholder="Mensagem"></textarea><br><br>
+                    <button type="submit">Enviar</button><button type="reset">Limpar</button><br><br>
+                </form>
+                <h2><u><strong>Contatos</strong></u></h2> 
+                <p>Telefone:(85) 3235-3232 / Whatsapp:(85) 99831-2020</p>  
+                <h2><u><strong>Endereço</strong></u></h2> 
+                <p>Rua Alameda dos Anjos, 999 - Metal Land -CEP 00.000-001 - Fortaleza-CE Brasil</p>               
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22521.878729054904!2d-38.534569869803526!3d-3.7351540216799277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7497a22d6ecbd%3A0x69ef7110c6c5c83e!2sOdontoCompany%20Fortaleza!5e0!3m2!1spt-BR!2sbr!4v1670715644181!5m2!1spt-BR!2sbr" width="950" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>   
+            <div class="footer">
+                <p><i><b>Endereço:</b></i> Rua Alameda dos Anjos, 999 - Metal Land -CEP 00.000-001 - Fortaleza-CE Brasil / <i><b>Central de Atendimento:</b></i> (85) 3235-3232</p>              
+                <p><i><b>Siga Clinic Dental nas Redes Sociais:</b></i></p>
+                <img  title="Instagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" width="40" alt="Logo Instragram">
+                <img title="Twitter" src="https://cdn-icons-png.flaticon.com/512/124/124021.png" width=" 40" alt="logo Twitter">
+                <img title="Facebook" src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png" width="40" alt=" Logo Facebook">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
